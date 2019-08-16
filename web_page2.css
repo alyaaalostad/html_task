@@ -1,0 +1,111 @@
+.front_title{ /*TITLE*/
+
+	font-size: 60px;
+	color: black;
+	text-align: center;
+	text-shadow: 3px 2px #BC8F8F;
+  	transition: width 2s;
+  	font-family: "Zapfino";
+
+}
+
+/* TITLES PRAGRAPH*/
+.front_title2{
+
+	letter-spacing: 1px;
+	font-style: cursive;
+	font-size: 20px;
+	font-variant: small-caps;
+	color: white;
+	text-align: center;
+	background: #BC8F8F;
+	line-height: 1.3;
+	position: relative;
+	padding: 5px;
+	border-width: 1px;
+	border-radius: 5px;
+	border: 1px solid #BC8F8F;
+  	margin: 200px;
+
+
+}
+
+/* INSIDE THE BOX PARAGRAPH*/
+.front_title3{
+
+	font-style: marker;
+	font-variant: small-caps;
+	color: white;
+	background: #BC8F8F;
+	float: center;
+	position: absolute;
+	width:500px;
+	height: 200px;
+	padding: 20px;
+	padding-top: 70px;
+	left:450px;
+	border-radius: 5px;
+	overflow: auto; /*scrolling inside the box*/
+	outline: 1px solid white;
+  	outline-offset: 15px;
+  	text-align: justify;
+  	margin-top: 30px;
+
+
+
+
+}
+
+/* BACKGROUND IMAGE ...................*/
+
+.back_ground{
+
+	background-image: url("https://images.pexels.com/photos/2612850/pexels-photo-2612850.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+	background-size: 1500px 1300px;
+	background-position: center;
+
+
+}
+/*  INSIDE THE BOX IMAGES............................ */
+body .image1{
+	width:305px;
+	height:180px;
+	transition: all 1s;
+	border-radius: 5px;
+	padding-top:120px;
+	padding-left: 50px;
+	padding-right: 50px;
+    margin: 25px;
+   
+
+
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+.topnav {
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 5px 5px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #F5F5F5;
+  color: black;
+}
+
