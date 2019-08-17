@@ -1,11 +1,11 @@
 .front_title{ /*TITLE*/
 
-	font-size: 60px;
-	color: black;
+	font-size: 63px;
+	color: #FFE4C4;
 	text-align: center;
-	text-shadow: 3px 2px #BC8F8F;
-  	transition: width 2s;
+	text-shadow: 1px 1px gray;
   	font-family: "Zapfino";
+  	margin: 500px;
 
 }
 
@@ -27,7 +27,6 @@
 	border: 1px solid #BC8F8F;
   	margin: 200px;
 
-
 }
 
 /* INSIDE THE BOX PARAGRAPH*/
@@ -42,14 +41,14 @@
 	width:500px;
 	height: 200px;
 	padding: 20px;
-	padding-top: 70px;
+	padding-top: 60px;
 	left:450px;
 	border-radius: 5px;
 	overflow: auto; /*scrolling inside the box*/
 	outline: 1px solid white;
   	outline-offset: 15px;
   	text-align: justify;
-  	margin-top: 30px;
+  	margin-top: 40px;
 
 
 
@@ -61,7 +60,7 @@
 .back_ground{
 
 	background-image: url("https://images.pexels.com/photos/2612850/pexels-photo-2612850.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-	background-size: 1500px 1300px;
+	background-size: 1500px 1400px;
 	background-position: center;
 
 
